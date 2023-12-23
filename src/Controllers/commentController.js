@@ -1,18 +1,18 @@
-// blogController.js
+
 
 exports.create = async (req, res) => {
-    res.send("Create Blog API");
+    res.send("Create Comment");
   };
   
   exports.read = async (req, res) => {
-    res.send("Read Blog API");
+    res.send("Read Comment");
   };
   
   exports.delete = async (req, res) => {
-    res.send("Delete Blog API");
+    res.send("Delete Comment");
   };
   
   exports.update = async (req, res) => {
-    res.send("Update Blog API");
+    res.send("Update Comment");
   };
   
